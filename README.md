@@ -1,4 +1,3 @@
-#landing-creatives-
 #clone this repository
 
 1. go to root directory and run npm i
