@@ -1,0 +1,22 @@
+.section-4{
+    background-color: #11749e;
+    padding: 120px 0 160px;
+    .container{
+        .row{
+            .note{
+                display: flex;
+                i{
+                    color:white;
+                    font-size: 100px;
+                    margin-right: 30px;
+                }
+                p{
+                    font-family: 'Gotham Book';
+                    font-size: 15px;
+                    color: white;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+}

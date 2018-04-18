@@ -1,0 +1,58 @@
+.section-6{
+    background-color: white;
+    position: relative;
+    padding: 175px 0 130px;
+    span{
+        position:absolute;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        font-family: 'RobotoBold';
+        font-size: 247.18px;
+        text-transform: uppercase;
+        color:rgba($color: grey, $alpha: 0.4);
+    }
+    h2{
+        font-family: 'Gotham Pro medium';
+        color:black;
+        font-size: 37.55px;
+        text-transform: uppercase;
+        text-align: center;
+        transform: translateY(-50%);
+        margin-bottom: 100px;
+    }
+    p{
+        font-family: 'Gotham Book';
+        font-size:30.06px;
+        color:#222222;
+        text-align: center;
+        margin-bottom: 75px;
+    }
+    .team-item{
+        img{
+            width: 100%;
+        }
+        .team-name{
+            position: relative;
+            text-align: center;
+            width: 80%;
+            margin: 0 auto;
+            background-color: white;
+            transform: translateY(-35px);
+            padding: 10px 0;
+            h4{
+                color:#11749e;
+                font-family: 'Gotham Pro medium';
+                font-size: 20px;
+                text-transform: uppercase;
+            }
+            p{
+                color:black;
+                font-family: 'Gotham Pro medium';
+                font-size: 15px;
+                text-transform: uppercase;
+                margin-top: 15px;    
+            }
+        }
+        
+    }
+}

@@ -1,0 +1,51 @@
+.section-3{
+    background-color: white;
+    position: relative;
+    padding: 175px 0 130px;
+    span{
+        position:absolute;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        font-family: 'RobotoBold';
+        font-size: 247.18px;
+        text-transform: uppercase;
+        color:rgba($color: grey, $alpha: 0.4);
+    }
+    h2{
+        font-family: 'Gotham Pro medium';
+        color:black;
+        font-size: 37.55px;
+        text-transform: uppercase;
+        text-align: center;
+        transform: translateY(-50%);
+        margin-bottom: 100px;
+    }
+    p{
+        font-family: 'Gotham Book';
+        font-size:30.06px;
+        color:#222222;
+        text-align: center;
+        
+    }
+    .blog-items{
+        text-align: center;
+        margin-top: 80px;
+        img{
+            width: 100%;
+        }
+        h4{
+            color:#11749e;
+            font-family: 'MyriadPro';
+            font-size: 18px;
+            text-transform: uppercase;
+            margin-top: 45px;
+        }
+        p{
+            color:#222222;
+            font-family: 'MyriadPro';
+            font-size: 15px;
+            line-height: 20px;
+            margin-top: 25px;
+        }
+    }
+}

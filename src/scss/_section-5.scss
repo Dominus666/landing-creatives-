@@ -1,0 +1,61 @@
+.section-5{
+    background-image: url(../img/section-5/bkg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    .container{
+        display: flex;
+        align-items: center;
+        .col-md-6{
+            display: flex;
+            align-items: center;
+            .services{
+                h4{
+                    font-family: 'Gotham Pro medium';
+                    color:white;
+                    text-transform: uppercase;
+                    font-size: 25px;
+                }
+                p{
+                    font-family: 'MyriadPro';
+                    font-size: 15px;
+                    color:white;
+                    line-height: 25px;
+                    margin-top: 40px;
+                }
+                .services-items{
+                    display: flex;
+                    flex-direction: column;
+                    margin-top:90px;
+                    span{
+                        background-color: #11749e;
+                        font-family: 'MyriadPro';
+                        font-size: 15px;
+                        color:white;
+                        text-transform: uppercase;
+                        padding: 15px 0 15px 20px;
+                        margin-top:25px;
+                        &:nth-child(1){
+                            width: 370px;
+                        }
+                        &:nth-child(2){
+                            width: 400px;
+                        }
+                        &:nth-child(3){
+                            width: 430px;
+                        }
+                    }
+                }
+            }
+        }
+        .col-md-6{
+            .services-phone{
+                display: flex;
+                margin: 0 auto;
+            }
+        }
+           
+    }
+}
